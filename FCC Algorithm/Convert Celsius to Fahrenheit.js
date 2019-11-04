@@ -1,6 +1,6 @@
 function convertToF(celsius) {
-    let fahrenheit;
-    return fahrenheit;
-  }
-  
-  convertToF(30);
+  let fahrenheit = celsius * 9/5 + 32;
+  return fahrenheit;
+}
+
+convertToF(30);
