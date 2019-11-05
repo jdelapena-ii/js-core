@@ -1,6 +1,8 @@
 function factorialize(num) {
-    return num;
+  for (var product = 1; num > 0; num--) {
+    product *= num;
   }
-  
-  factorialize(5);
-  
+  return product;
+}
+
+factorialize(5);
