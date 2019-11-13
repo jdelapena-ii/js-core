@@ -1,7 +1,10 @@
 function repeatStringNumTimes(str, num) {
-    // repeat after me
-    return str;
+  var accumulatedStr = "";
+
+  while (num > 0) {
+    accumulatedStr += str;
+    num--;
   }
-  
-  repeatStringNumTimes("abc", 3);
-  
+
+  return accumulatedStr;
+}
