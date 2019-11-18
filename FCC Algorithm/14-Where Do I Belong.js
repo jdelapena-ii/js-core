@@ -1,7 +1,11 @@
 function getIndexToIns(arr, num) {
-    // Find my place in this sorted array.
-    return num;
+  arr.sort(function(a, b) {
+    return a - b;
+  });
+
+  for (var a = 0; a < arr.length; a++) {
+    if (arr[a] >= num) return a;
   }
-  
-  getIndexToIns([40, 60], 50);
-  
+
+  return arr.length;
+}
