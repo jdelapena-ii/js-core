@@ -1,6 +1,9 @@
 // The forEach() method calls a function once for each element in an array, in order.
 // Requires a callback function with 3 parameters
+
+// Performs the specified action for each element in an array.
 // forEach(callbackfn: (value: number, index: number, array: number[]) => void, thisArg?: any)
+
 
 // one use is to console every value in the array
 const numbers = [1, 3, 5, 6, 9];

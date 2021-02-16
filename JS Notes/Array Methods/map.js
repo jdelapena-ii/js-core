@@ -3,10 +3,12 @@
 // Note: map() does not execute the function for array elements without values.
 // Note: this method does not change the original array.
 
-const numbers = [1, 3, 5, 6, 9];
-
-const numbersDouble = numbers.map(double);
+// Calls a defined callback function on each element of an array, and returns an array that contains the results.
 // map<number>(callbackfn: (value: number, index: number, array: number[]) => number, thisArg?: any)
+
+const numbers = [1, 3, 5, 6, 9];
+const numbersDouble = numbers.map(double);
+
 function double(value, index, array){
    return value * 2;
 }
