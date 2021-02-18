@@ -9,7 +9,7 @@
 const numbers = [1, 2, 3, 4, 5];
 
 // .reduce(callback, initialValue)
-const total = numbers.reduce(sum)
+const total = numbers.reduce(sum, 0)
 
 // callback(accumulator, value, index, array)
 function sum(accumulator, value, index, arr) {
@@ -31,3 +31,31 @@ function callback(accumulator, value) {
     }
 }
 console.log(max);
+
+const products = [
+    {
+        item: "laptop",
+        price: 2000,
+        count: 5
+    },
+    {
+        item: "kindle",
+        price: 60,
+        count: 20
+    },
+    {
+        item: "iphone",
+        price: 1000,
+        count: 20
+    }
+];
+
+const totalValue = products.reduce(cb, 0);
+function cb(acc, item){
+    return acc + item.price * item.count;
+}
+
+console.log(totalValue);
+
+const totalVal = products.reduce((accumulator, value) => accumulator + value.price * value.count, 0);
+console.log(totalVal);
