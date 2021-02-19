@@ -13,3 +13,35 @@ console.log(sorted);
 const numbers = [0, 5, 1, 8, 29, 9, 100];
 const arranged = numbers.sort((a, b) => b-a);
 console.log(arranged);
+
+const products = [ 
+    {
+        item: 'laptop',
+        brand: 'dell',
+        price: 2000
+    },
+    {
+        item: 'aindle',
+        brand: 'lenovo',
+        price: 60
+    },
+    {
+        item: 'aindle',
+        brand: 'asus',
+        price: 1000
+    }
+ 
+]
+// console.log(products.sort((a,b) => (a.item > b.item) ? 1 : -1 ));
+console.log(products.sort((a,b) => {
+    if(a.item > b.item) {
+        if(b.brand > a.brand) {
+            return 11
+        } else {
+            return -1;
+        }
+        return 1;
+    } else {
+        return -1
+    }
+}))
