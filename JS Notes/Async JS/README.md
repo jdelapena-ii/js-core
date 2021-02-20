@@ -1,1 +1,1 @@
-Most of this notes comes from this lecture [https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu].
+Most of this notes comes from this lecture of the Net Ninja - [https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu].

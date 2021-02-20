@@ -1,1 +1,1 @@
-Most of this notes comes from this lecture [https://www.youtube.com/watch?v=SXb5LN_opbA&list=PLgBH1CvjOA62PBFIDq55-S6Beivje30A2].
+Most of this notes comes from this lecture of Florin Pop - [https://www.youtube.com/watch?v=SXb5LN_opbA&list=PLgBH1CvjOA62PBFIDq55-S6Beivje30A2].
