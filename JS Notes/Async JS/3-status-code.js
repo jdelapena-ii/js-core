@@ -9,8 +9,10 @@
     // This block of code consoles the api request
     request.addEventListener('readystatechange', () => {
         // console.log(request, request.readyState)
-        if(request.readyState === 4) {
+        if(request.readyState === 4 && request.status === 200) {
             console.log(request.responseText); 
+        } else if(request.readyState === 4) {
+            console.log("Could not fetch data...")
         }
     })
     // .open() method takes two parameters. When we get some data, we use the GET request.
