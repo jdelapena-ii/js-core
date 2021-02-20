@@ -1,0 +1,17 @@
+[
+    {
+        "item": "laptop",
+        "price": 2000,
+        "count": 5
+    },
+    {
+        "item": "kindle",
+        "price": 60,
+        "count": 20
+    },
+    {
+        "item": "iphone",
+        "price": 1000,
+        "count": 20
+    }
+]
